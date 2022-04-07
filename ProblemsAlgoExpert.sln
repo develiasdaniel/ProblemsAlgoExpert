@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemsAlgoExpert", "ProblemsAlgoExpert\ProblemsAlgoExpert.csproj", "{9C665AA1-2C8E-4B44-9E77-CD91AB09EB97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsAlgoExpert", "TestsAlgoExpert\TestsAlgoExpert.csproj", "{49616792-BEA7-41EA-94AE-236E810C8DC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C665AA1-2C8E-4B44-9E77-CD91AB09EB97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C665AA1-2C8E-4B44-9E77-CD91AB09EB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C665AA1-2C8E-4B44-9E77-CD91AB09EB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C665AA1-2C8E-4B44-9E77-CD91AB09EB97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49616792-BEA7-41EA-94AE-236E810C8DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49616792-BEA7-41EA-94AE-236E810C8DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49616792-BEA7-41EA-94AE-236E810C8DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49616792-BEA7-41EA-94AE-236E810C8DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31D4A296-920A-4723-A68C-714E09A0CA0B}
+	EndGlobalSection
+EndGlobal
