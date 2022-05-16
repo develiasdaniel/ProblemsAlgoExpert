@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProblemsAlgoExpert
+namespace ProblemsAlgoExpert.Arrays
 {
     public class TwoNumberSum
     {

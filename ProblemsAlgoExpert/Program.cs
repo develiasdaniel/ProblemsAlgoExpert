@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using ProblemsAlgoExpert;
+using ProblemsAlgoExpert.Arrays;
 using System.Collections;
 
 Console.WriteLine("Hello, World!, Estas son soluciones a algo expert.");
