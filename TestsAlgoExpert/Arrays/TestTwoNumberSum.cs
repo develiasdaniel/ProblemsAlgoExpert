@@ -6,7 +6,6 @@ namespace TestsAlgoExpert.Arrays
 {
     public class TestsTwoNumberSum
     {
-
         /// <summary>
         /// TypeCases.
         /// </summary>

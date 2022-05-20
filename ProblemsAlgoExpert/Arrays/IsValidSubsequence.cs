@@ -11,22 +11,45 @@ namespace ProblemsAlgoExpert.Arrays
 		public static bool IsValidSubsequenceSolution1(List<int> array, List<int> sequence)
 		{
 			// Write your code here.
-			var lastIndex = 0;
+			int lastIndex = -1;
 			foreach (var num in sequence)
 			{
-				var index = array.IndexOf(num);
-				if (index == -1)
+				int currentIndex = array.IndexOf(num);
+				if (currentIndex == -1)
 				{
 					return false;
 				}
 
-				if (lastIndex > index)
+				if (currentIndex >= lastIndex)
 				{
-					return false;
+					lastIndex = currentIndex;
+					array.RemoveAt(lastIndex);
+					continue;
 				}
-				lastIndex = index;
+				return false;
 			}
 			return true;
 		}
+
+		public static bool IsValidSubsequenceSolution2(List<int> array, List<int> sequence)
+		{
+			// Write your code here.
+			int seqIdx = 0;
+			foreach (var val in array)
+			{
+				if (seqIdx == sequence.Count)
+				{
+					break;
+				}
+
+				if (sequence[seqIdx] == val)
+				{
+					seqIdx++;
+				}
+			}
+			return seqIdx == sequence.Count;
+		}
+
+
 	}
 }
