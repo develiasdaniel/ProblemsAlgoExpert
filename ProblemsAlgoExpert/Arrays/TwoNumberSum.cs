@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProblemsAlgoExpert.Arrays
 {
-    public class TwoNumberSum
+    public static class TwoNumberSum
     {
 		public static int[] TwoNumberSumSolution1(int[] array, int targetSum)
 		{
