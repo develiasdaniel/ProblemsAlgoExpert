@@ -1,6 +1,6 @@
 ﻿namespace ProblemsAlgoExpert.Strings
 {
-    public class PalindromeCheck
+    public static class PalindromeCheck
     {
         // O(n) time | O(1) space
         public static bool IsPalindrome(string str)
